@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #1e293b;
+    background-color: #f8fafc;
+  }
+}
+
+/* Presentation Mode - Large Font Scaling for projectors */
+.presentation-mode {
+  font-size: 1.15rem;
+}
+
+.presentation-mode h1 {
+  font-size: 1.75rem !important;
+}
+
+.presentation-mode h2 {
+  font-size: 1.5rem !important;
+}
+
+.presentation-mode h3 {
+  font-size: 1.35rem !important;
+}
+
+.presentation-mode table {
+  font-size: 1rem !important;
+}
+
+.presentation-mode p,
+.presentation-mode span {
+  line-height: 1.6;
+}
+
+/* Print Styles for Reports */
+@media print {
+  header,
+  aside,
+  nav,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  main {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .shadow-xs,
+  .shadow-sm,
+  .shadow-md {
+    box-shadow: none !important;
+    border: 1px solid #cbd5e1 !important;
+  }
+}

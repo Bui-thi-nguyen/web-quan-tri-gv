@@ -1,0 +1,6 @@
+{
+  "name": "TRỢ LÝ QUẢN TRỊ HỌC TẬP KHTN – BÙI THỊ NGUYÊN",
+  "description": "Web app quản trị học tập môn Khoa học tự nhiên dành cho giáo viên Bùi Thị Nguyên, Trường THCS Phan Bội Châu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
